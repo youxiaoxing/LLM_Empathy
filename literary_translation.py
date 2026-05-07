@@ -65,7 +65,7 @@ with open(output_file, "w", encoding='utf-8') as f:
                 "chapter_id": chapter_id,
                 "source": zh_text,
                 "reference": en_reference,
-                "generated": generated_translation
+                "generate": generated_translation
             }
             
             f.write(json.dumps(result, ensure_ascii=False) + "\n")
